@@ -22,7 +22,7 @@ h1 {
   grid-template-columns: repeat(12, minmax(1fr, auto));
   grid-template-rows: repeat(1, 1fr);
   grid-template-areas:
-  "s s s s a a a a a a a a";
+  "s s s s m m m m m m m m";
   margin-top: 75px;
   }
 .sidebar {
@@ -31,9 +31,10 @@ h1 {
   grid-area: s;
   align-items: center;
   background-color:blue;
+  height: 100%;
 }
-.articles {
-  grid-area: a;
+.main-section {
+  grid-area: m;
 }
 .footer {
   grid-area: f;
